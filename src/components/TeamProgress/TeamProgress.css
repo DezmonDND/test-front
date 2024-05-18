@@ -1,0 +1,65 @@
+.team-progress__container {
+    font-family: "Stolzl", Arial, sans-serif;
+    min-width: 300px;
+    width: 100%;
+    max-height: 280px;
+    border-radius: 40px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 10px 4px rgba(24, 39, 75, 0.04);
+}
+
+.team-progress__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 42px;
+}
+
+.team-progress__info {
+    background-image: url(../../images/Ellipse\ 9.png);
+    margin: 20px 50px 0 50px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.team-progress__circle {
+    width: 200px;
+    height: 200px;
+    background-image: conic-gradient(orange 64%, blue 64%, blue 81%, black 81%);
+    border-radius: 50%;
+}
+
+.team-progress__text {
+    font-family: "Verdana", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 186px;
+    text-align: center;
+    margin: 21px 37px 34px 37px;
+}
+
+.team-progress__warning {
+    background-image: url(../../images/information\ 1.png);
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 40px;
+    align-self: center;
+    margin-left: 6px;
+    margin-bottom: 12px;
+}
+
+.team-progress__title {
+    display: flex;
+}

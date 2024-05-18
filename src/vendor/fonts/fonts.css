@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Stolzl";
+    font-style: normal;
+    font-weight: 400;
+    src: 
+    /* local("Stolzl-Regular"),    */ url(./Stolzl-Regular.woff)
+        format("woff");
+}
+
+@font-face {
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: normal;
+    src: 
+    /* local("Verdana"),   */ url(./Verdana.woff) format("woff");
+}

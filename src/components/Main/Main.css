@@ -1,0 +1,16 @@
+.main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__container {
+    margin: auto;
+    display: flex;
+    max-width: 1090px;
+    width: 100%;
+    min-height: 280px;
+    height: 100%;
+    gap: 20px;
+    justify-content: space-between;
+}

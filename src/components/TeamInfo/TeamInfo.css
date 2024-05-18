@@ -1,0 +1,129 @@
+.team-info__container {
+    font-family: "Stolzl", Arial, sans-serif;
+    min-width: 443px;
+    width: 100%;
+    max-height: 280px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px 4px rgba(24, 39, 75, 0.04);
+}
+
+.team-info__name {
+    margin: 40px 8px 0 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.team-info__image {
+    width: 183px;
+}
+
+.team-info-legend {
+    margin-left: 20px;
+    max-width: 183px;
+}
+
+.team-info__title {
+    display: flex;
+}
+
+.team-info__warning {
+    background-image: url(../../images/information\ 1.png);
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 40px;
+    align-self: center;
+}
+
+.team-info__progress {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px 40px;
+}
+
+.team-info__progress-name {
+    margin: 0;
+    margin-top: 13px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.team-info__list {
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.team-info__list-element {
+    display: flex;
+    margin-right: 8px;
+    position: fixed;
+    margin-left: 16px;
+}
+
+.team-info__progress-info {
+    margin: 0;
+}
+
+.team-info__progress-number {
+    margin: 0;
+}
+
+.team-info__progress-notifications {
+    margin: 0;
+}
+
+.team-info__text {
+    font-family: "Verdana", Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    min-width: 183px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.team-info__text:last-of-type {
+    margin-bottom: 0;
+}
+
+.team-info__value {
+    margin: 0;
+    margin-left: 4px;
+    color: #7c7d7e;
+}
+
+.team-info__image {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #00a75c;
+}
+
+.team-info__image:nth-of-type() {
+    background-color: #e9841d;
+}
+
+.team-info__list-procent {
+    list-style: none;
+    display: flex;
+    margin-right: 0;
+}
+
+.team-info__image_orange {
+    background-color: #e9841d;
+}
+
+.team-info__image_red {
+    background-color: #ec133d;
+}
+
+.team-info__image_gray {
+    background-color: #b6d4ed;
+}
