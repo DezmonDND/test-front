@@ -8,6 +8,15 @@
 }
 
 @font-face {
+    font-family: "Stolzl";
+    font-style: normal;
+    font-weight: 500;
+    src: 
+    /* local("Stolzl-Medium"),    */ url(./Stolzl-Medium.woff)
+        format("woff");
+}
+
+@font-face {
     font-family: "Verdana";
     font-style: normal;
     font-weight: normal;
