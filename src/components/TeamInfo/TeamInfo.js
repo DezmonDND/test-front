@@ -12,7 +12,7 @@ const COLORS = ["#00A75C", "#E9841D", "#EC133D", "#B6D4ED"];
 
 function TeamInfo() {
     return (
-        <div className="team-info__container">
+        <section className="team-info">
             <div className="team-info__title">
                 <h2 className="team-info__name">Обученность команды</h2>
                 <div className="team-info__warning"></div>
@@ -122,7 +122,7 @@ function TeamInfo() {
                 </div>
                 <div />
             </div>
-        </div>
+        </section>
     );
 }
 

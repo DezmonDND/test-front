@@ -10,7 +10,7 @@ const COLORS = ["#E9841D", "#E7F1F9"];
 
 export default function TeamProgress() {
     return (
-        <div className="team-progress__container">
+        <section className="team-progress">
             <div className="team-progress__title">
                 <h2 className="team-progress__name">Прогресс сотрудников</h2>
                 <div className="team-progress__warning"></div>
@@ -52,6 +52,6 @@ export default function TeamProgress() {
             <p className="team-progress__text">
                 сотрудников завершили обучение
             </p>
-        </div>
+        </section>
     );
 }

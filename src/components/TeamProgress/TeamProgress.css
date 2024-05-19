@@ -1,4 +1,4 @@
-.team-progress__container {
+.team-progress {
     font-family: "Stolzl", Arial, sans-serif;
     min-width: 300px;
     width: 100%;
@@ -45,7 +45,7 @@
     line-height: 20px;
     max-width: 186px;
     text-align: center;
-    margin: 21px 37px 34px 37px;
+    margin: 22px 37px 34px 37px;
 }
 
 .team-progress__warning {

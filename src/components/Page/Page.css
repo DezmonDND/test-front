@@ -1,10 +1,10 @@
-.main {
+.page {
     margin: auto;
     display: flex;
     flex-direction: column;
 }
 
-.main__container {
+.main {
     margin: auto;
     display: flex;
     max-width: 1090px;

@@ -2,19 +2,19 @@ import Header from "../Header/Header";
 import TeamInfo from "../TeamInfo/TeamInfo";
 import TeamProgress from "../TeamProgress/TeamProgress";
 import TeamWarning from "../TeamWarning/TeamWarning";
-import "./Main.css";
+import "./Page.css";
 
-function Main() {
+function Page() {
     return (
-        <main className="main">
+        <div className="page">
             <Header></Header>
-            <div className="main__container">
+            <main className="main">
                 <TeamInfo></TeamInfo>
                 <TeamProgress></TeamProgress>
                 <TeamWarning></TeamWarning>
-            </div>
-        </main>
+            </main>
+        </div>
     );
 }
 
-export default Main;
+export default Page;

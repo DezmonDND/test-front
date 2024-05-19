@@ -3,7 +3,7 @@ import warningLogo from "../../images/Group 310.png";
 
 function TeamWarning() {
     return (
-        <div className="team-warning__container">
+        <section className="team-warning">
             <h2 className="team-warning__title">Обратите внимание</h2>
             <ul className="team-warning__list">
                 <li className="team-warning__list-element">
@@ -35,7 +35,7 @@ function TeamWarning() {
                     </p>
                 </li>
             </ul>
-        </div>
+        </section>
     );
 }
 

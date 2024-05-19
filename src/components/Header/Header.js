@@ -1,7 +1,7 @@
 import "./Header.css";
 
 function Header() {
-    return <h1 className="header">Моя команда</h1>;
+    return <header className="header">Моя команда</header>;
 }
 
 export default Header;

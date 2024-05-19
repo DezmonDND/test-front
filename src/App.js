@@ -1,5 +1,5 @@
 import "./App.css";
-import Statistic from "./components/Main/Main";
+import Statistic from "./components/Page/Page";
 
 function App() {
     return (
